@@ -1,0 +1,52 @@
+#cardsection{
+    display: flex;
+}
+#cardsection div{
+    width: 25%;
+    overflow: hidden;
+    height: 200px;
+}
+#cardsection div img{
+    width: 100%;
+
+
+}
+
+#cardsection div p{
+    position: relative;
+    bottom: 75px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+
+}
+#cardsection div img:hover{
+    transform: scale(1.2);
+    transition: 2s ease-in-out;
+
+
+} 
+/* ================================================================================================ */
+#hdsection{
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+padding-bottom: 2px;
+
+}
+#hdsection ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+#hdsection  h3 {
+    padding-top: 10px;
+}
+.l:hover{
+    color: red;
+}
+#imges img{
+    width: 100%;
+}
